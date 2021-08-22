@@ -15,8 +15,29 @@ export class Satellite {
    }
 	
 	isSpaceDebris(): boolean {
-		return true;
-   }
+		return this.type === 'Space Debris';
+	
+		}
+		// let i = 0;
+		// while (i< Satellite.length){
+		// 	if (Satellite[i].type.includes("Space Debris")){
+		// 		return true;
+		// 		i++;
+		// 	} else {
+		// 		return false;
+		// 		i++;
+		// 	}
+		// }
+// 		for(let i = 0; i< Satellite.length; i++) {
+// 			if (Satellite[i].type.includes("Space Debris")){
+// 				return true;
+// 			}  else {
+// 				return false;
+// 			}
+		
+//    }
+
+
 
 }
 
